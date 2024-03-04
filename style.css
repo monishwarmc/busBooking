@@ -71,7 +71,10 @@ header ul li {
 header ul li a {
   font-size: 1.2rem;
   font-weight: 400;
-  color: white;
+  color: rgb(200, 11, 238);
+  background-color: #6cb0dd9a;
+  padding: 6px;
+  border-radius: 30%;
   transition: 0.5s;
 }
 
@@ -86,7 +89,7 @@ header ul li a:hover {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #0c47e7;
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -104,7 +107,7 @@ header ul li a:hover {
   }
 
   header ul li a {
-    color: black;
+    color: rgb(204, 19, 19);
   }
 
   .hambuger {
@@ -131,25 +134,26 @@ header ul li a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -10;
   width: 100%;
   height: 100%;
+  opacity: 0.9;
 }
 
 .home .text {
   max-width: 50%;
-  color: white;
+  color: rgb(21, 40, 212);
   margin: 20% 0 0 10%;
 }
 .home h1 {
-  color: black;
+  color: rgb(7, 240, 248);
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .home p {
-  color: black;
-  font-weight: 400;
+  color: rgb(224, 245, 245);
+  font-weight: 600;
   line-height: 25px;
   font-family: sans-serif;
   font-size: 17px;
@@ -164,6 +168,14 @@ button {
   border-radius: 50px;
   color: black;
   margin-top: 20px;
+  font-weight: 600;
+  background: #25961b;
+}
+
+button:hover {
+  background: #C1B086;
+  color: white;
+  transition: 0.5s;
 }
 
 .home button {
@@ -331,16 +343,16 @@ input {
 /*--------------about--------*/
 /*--------------wrapper--------*/
 .wrapper {
-  background-image: url("../image/ami.jpg");
+  background-image: url("/images/ami.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 480px;
+  height: 900px;
   position: relative;
 }
 
 .wrapper .text {
-  background: #3f9cc1;
+  background: #3f5dc1;
   padding: 50px;
   width: 40%;
   height: 600px;
@@ -411,7 +423,7 @@ input {
 /*--------------bus--------*/
 /*--------------wrapper2--------*/
 .wrapper2 {
-  background-image: url("../image/w1.jpg");
+  background-image: url("/images/w1.jpg");
 }
 
 .wrapper2 .text {
@@ -650,4 +662,6 @@ footer li:hover {
   .restaurant .flex {
     flex-direction: column-reverse;
   }
+
+
 }

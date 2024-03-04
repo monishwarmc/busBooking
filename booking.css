@@ -3,12 +3,12 @@
     padding: 0;
 }
 body{
-    background-image: url(bus.jpg);
+    background-image: url(/images/bus.jpg);
     background-position: center;
     background-size: auto;
 }
 #form{
-    background-color: #000;
+    background-color: #0d1a1d;
     height:500px;
     width:800px;
     margin: auto;
